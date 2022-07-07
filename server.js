@@ -58,7 +58,7 @@ users(app, upload);
 categories(app);
 products(app, upload);
 
-server.listen(3000, '146.190.14.179' || 'localhost', function () {
+server.listen(3000, '192.168.3.23' || 'localhost', function () {
 	console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
 });
 
