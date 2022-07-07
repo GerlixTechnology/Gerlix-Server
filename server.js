@@ -58,13 +58,9 @@ users(app, upload);
 categories(app);
 products(app, upload);
 
-server.listen(
-	process.env.PORT || 3000,
-	'192.168.3.23' || 'localhost',
-	function () {
-		console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
-	}
-);
+server.listen(3000, '192.168.3.23' || 'localhost', function () {
+	console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
+});
 
 // ERROR HANDLER
 
