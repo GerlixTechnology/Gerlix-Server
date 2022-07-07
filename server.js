@@ -60,7 +60,7 @@ products(app, upload);
 
 server.listen(
 	process.env.PORT || 3000,
-	'146.190.14.179' || 'localhost',
+	'192.168.3.23' || 'localhost',
 	function () {
 		console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
 	}
