@@ -58,7 +58,7 @@ users(app, upload);
 categories(app);
 products(app, upload);
 
-server.listen(3000, '143.244.183.40' || 'localhost', function () {
+server.listen(PORT, '143.244.183.40' || 'localhost', function () {
 	console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
 });
 
