@@ -1,0 +1,31 @@
+{
+	"name": "gerlix_services_app",
+	"version": "1.0.0",
+	"description": "Backend de Gerlix Services App",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"keywords": [
+		"flutter",
+		"services",
+		"nodejs"
+	],
+	"author": "Genaro Villalaz",
+	"license": "MIT",
+	"dependencies": {
+		"@google-cloud/storage": "^6.2.0",
+		"bluebird": "^3.7.2",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"express": "^4.17.3",
+		"express-session": "^1.17.3",
+		"firebase-admin": "^11.0.0",
+		"http": "^0.0.1-security",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0",
+		"pg-promise": "^10.11.1"
+	}
+}
