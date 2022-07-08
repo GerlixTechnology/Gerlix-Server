@@ -62,9 +62,13 @@ products(app, upload);
 //	console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
 //});
 
-server.listen(port, '54.235.132.133' || 'localhost', function () {
-	console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
-});
+server.listen(
+	port,
+	'54.235.132.133' ||
+		function () {
+			console.log('Aplicacion de Nodejs ' + port + ' Iniciada...');
+		}
+);
 
 // ERROR HANDLER
 
